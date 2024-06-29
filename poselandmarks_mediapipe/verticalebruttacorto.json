@@ -1,0 +1,2476 @@
+{
+  "version": "2.0",
+  "schema_ref": "https://darwin-public.s3.eu-west-1.amazonaws.com/darwin_json/2.0/schema.json",
+  "item": {
+    "name": "verticale brutta corto.mp4",
+    "path": "/",
+    "source_info": {
+      "item_id": "019001a5-0099-bb8a-47ff-43bc7a97477d",
+      "dataset": {
+        "name": "aperto",
+        "slug": "aperto",
+        "dataset_management_url": "https://darwin.v7labs.com/datasets/965277/dataset-management"
+      },
+      "team": {
+        "name": "zanna",
+        "slug": "zanna"
+      },
+      "workview_url": "https://darwin.v7labs.com/workview?dataset=965277&item=019001a5-0099-bb8a-47ff-43bc7a97477d"
+    },
+    "slots": [
+      {
+        "type": "video",
+        "slot_name": "0",
+        "width": 1280,
+        "height": 720,
+        "fps": 30,
+        "thumbnail_url": "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/thumbnail",
+        "source_files": [
+          {
+            "file_name": "verticale brutta corto.mp4",
+            "url": "https://darwin.v7labs.com/api/v2/teams/zanna/uploads/8fbfc413-4da9-438d-bf42-f86bc6947477"
+          }
+        ],
+        "frame_count": 191,
+        "frame_urls": [
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/0",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/1",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/2",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/3",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/4",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/5",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/6",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/7",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/8",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/9",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/10",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/11",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/12",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/13",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/14",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/15",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/16",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/17",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/18",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/19",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/20",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/21",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/22",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/23",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/24",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/25",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/26",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/27",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/28",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/29",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/30",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/31",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/32",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/33",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/34",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/35",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/36",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/37",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/38",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/39",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/40",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/41",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/42",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/43",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/44",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/45",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/46",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/47",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/48",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/49",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/50",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/51",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/52",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/53",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/54",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/55",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/56",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/57",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/58",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/59",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/60",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/61",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/62",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/63",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/64",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/65",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/66",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/67",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/68",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/69",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/70",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/71",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/72",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/73",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/74",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/75",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/76",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/77",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/78",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/79",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/80",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/81",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/82",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/83",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/84",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/85",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/86",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/87",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/88",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/89",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/90",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/91",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/92",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/93",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/94",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/95",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/96",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/97",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/98",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/99",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/100",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/101",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/102",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/103",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/104",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/105",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/106",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/107",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/108",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/109",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/110",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/111",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/112",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/113",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/114",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/115",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/116",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/117",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/118",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/119",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/120",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/121",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/122",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/123",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/124",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/125",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/126",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/127",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/128",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/129",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/130",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/131",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/132",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/133",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/134",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/135",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/136",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/137",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/138",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/139",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/140",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/141",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/142",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/143",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/144",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/145",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/146",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/147",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/148",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/149",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/150",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/151",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/152",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/153",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/154",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/155",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/156",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/157",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/158",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/159",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/160",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/161",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/162",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/163",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/164",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/165",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/166",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/167",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/168",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/169",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/170",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/171",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/172",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/173",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/174",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/175",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/176",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/177",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/178",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/179",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/180",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/181",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/182",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/183",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/184",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/185",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/186",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/187",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/188",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/189",
+          "https://darwin.v7labs.com/api/v2/teams/zanna/files/afc859b1-c664-4b13-b9fd-e5ad59aca792/sections/190"
+        ]
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "frames": {
+        "76": {
+          "keyframe": true,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.07894,
+                "y": 421.74816
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 718.89168,
+                "y": 277.66468
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.80416,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "77": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.0902171428571,
+                "y": 421.69176857142855
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 719.2767485714286,
+                "y": 277.82902
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.6510971428571,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "78": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1014942857142,
+                "y": 421.6353771428571
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 719.6618171428571,
+                "y": 277.99336
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.4980342857143,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "79": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1127714285714,
+                "y": 421.5789857142857
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 720.0468857142857,
+                "y": 278.1577
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.3449714285714,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "80": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1240485714286,
+                "y": 421.52259428571426
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 720.4319542857143,
+                "y": 278.32204
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.1919085714286,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "81": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1353257142857,
+                "y": 421.46620285714283
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 720.8170228571428,
+                "y": 278.48638
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.0388457142857,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "82": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1466028571429,
+                "y": 421.4098114285714
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 721.2020914285714,
+                "y": 278.65072
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.8857828571429,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "83": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.15788,
+                "y": 421.35341999999997
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 721.5871599999999,
+                "y": 278.81506
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.73272,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "84": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1691571428571,
+                "y": 421.29702857142854
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 721.9722285714286,
+                "y": 278.9794
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.5796571428572,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "85": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1804342857142,
+                "y": 421.2406371428571
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 722.3572971428571,
+                "y": 279.14374
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.4265942857143,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "86": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.1917114285714,
+                "y": 421.1842457142857
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 722.7423657142857,
+                "y": 279.30808
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.2735314285715,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "87": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2029885714286,
+                "y": 421.1278542857143
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.1274342857142,
+                "y": 279.47242
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.1204685714285,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "88": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2142657142857,
+                "y": 421.0714628571429
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.5125028571429,
+                "y": 279.63676000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.9674057142857,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "89": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2255428571428,
+                "y": 421.01507142857145
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.8975714285714,
+                "y": 279.8011
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.8143428571428,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "90": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.23682,
+                "y": 420.95868
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.28264,
+                "y": 279.96544
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.66128,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "91": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2480971428571,
+                "y": 420.9022885714286
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.6677085714285,
+                "y": 280.12978000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.5082171428571,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "92": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2593742857142,
+                "y": 420.84589714285715
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.0527771428572,
+                "y": 280.29412
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.3551542857143,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "93": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2706514285713,
+                "y": 420.7895057142857
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.4378457142857,
+                "y": 280.45846
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.2020914285714,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "94": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2819285714286,
+                "y": 420.7331142857143
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.8229142857142,
+                "y": 280.62280000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.0490285714286,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "95": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.2932057142857,
+                "y": 420.67672285714286
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.2079828571428,
+                "y": 280.78714
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.8959657142857,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "96": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3044828571428,
+                "y": 420.62033142857143
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.5930514285714,
+                "y": 280.95148
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.7429028571429,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "97": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.31576,
+                "y": 420.56394
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.97812,
+                "y": 281.11582000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.58984,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "98": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3270371428571,
+                "y": 420.5075485714286
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.3631885714285,
+                "y": 281.28016
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.4367771428572,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "99": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3383142857142,
+                "y": 420.45115714285714
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.7482571428571,
+                "y": 281.4445
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.2837142857143,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "100": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3495914285713,
+                "y": 420.3947657142857
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.1333257142857,
+                "y": 281.60884000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.1306514285715,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "101": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3608685714286,
+                "y": 420.3383742857143
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.5183942857143,
+                "y": 281.77318
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.9775885714286,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "102": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3721457142857,
+                "y": 420.28198285714285
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.9034628571428,
+                "y": 281.93752
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.8245257142858,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "103": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3834228571428,
+                "y": 420.2255914285714
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.2885314285714,
+                "y": 282.10186000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.6714628571428,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "104": {
+          "keyframe": true,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.3947,
+                "y": 420.1692
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.6736,
+                "y": 282.2662
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.5184,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "105": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4059783333332,
+                "y": 420.1128083333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.5561183333333,
+                "y": 282.170335
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.6076866666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "106": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4172566666666,
+                "y": 420.0564166666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.4386366666666,
+                "y": 282.07447
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.6969733333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "107": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4285349999999,
+                "y": 420.000025
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.321155,
+                "y": 281.978605
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.7862600000001,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "108": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4398133333333,
+                "y": 419.9436333333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.2036733333333,
+                "y": 281.88274
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.8755466666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "109": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4510916666666,
+                "y": 419.8872416666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 729.0861916666667,
+                "y": 281.786875
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 666.9648333333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "110": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.46237,
+                "y": 419.83085
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.96871,
+                "y": 281.69101
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.05412,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "111": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4736483333332,
+                "y": 419.7744583333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.8512283333333,
+                "y": 281.595145
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.1434066666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "112": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4849266666666,
+                "y": 419.7180666666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.7337466666667,
+                "y": 281.49928
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.2326933333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "113": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.4962049999999,
+                "y": 419.661675
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.616265,
+                "y": 281.403415
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.32198,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "114": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5074833333333,
+                "y": 419.6052833333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.4987833333333,
+                "y": 281.30755
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.4112666666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "115": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5187616666666,
+                "y": 419.54889166666663
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.3813016666667,
+                "y": 281.21168500000005
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.5005533333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "116": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.53004,
+                "y": 419.4925
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.26382,
+                "y": 281.11582000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.58984,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "117": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5413183333333,
+                "y": 419.4361083333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.1463383333333,
+                "y": 281.01995500000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.6791266666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "118": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5525966666667,
+                "y": 419.37971666666664
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 728.0288566666667,
+                "y": 280.92409000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.7684133333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "119": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5638749999999,
+                "y": 419.323325
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.9113749999999,
+                "y": 280.82822500000003
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.8577,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "120": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5751533333333,
+                "y": 419.2669333333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.7938933333332,
+                "y": 280.73236
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 667.9469866666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "121": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.5864316666666,
+                "y": 419.21054166666664
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.6764116666666,
+                "y": 280.636495
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.0362733333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "122": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.59771,
+                "y": 419.15415
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.5589299999999,
+                "y": 280.54063
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.1255600000001,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "123": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.6089883333333,
+                "y": 419.09775833333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.4414483333333,
+                "y": 280.444765
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.2148466666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "124": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.6202666666667,
+                "y": 419.04136666666665
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.3239666666666,
+                "y": 280.3489
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.3041333333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "125": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.631545,
+                "y": 418.984975
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.2064849999999,
+                "y": 280.253035
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.39342,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "126": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.6428233333334,
+                "y": 418.92858333333334
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 727.0890033333333,
+                "y": 280.15717
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.4827066666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "127": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.6541016666666,
+                "y": 418.87219166666665
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.9715216666666,
+                "y": 280.061305
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.5719933333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "128": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.66538,
+                "y": 418.8158
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.8540399999999,
+                "y": 279.96544
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.66128,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "129": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.6766583333333,
+                "y": 418.75940833333334
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.7365583333333,
+                "y": 279.869575
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.7505666666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "130": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.6879366666667,
+                "y": 418.70301666666666
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.6190766666666,
+                "y": 279.77371
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.8398533333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "131": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.699215,
+                "y": 418.64662500000003
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.501595,
+                "y": 279.677845
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 668.92914,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "132": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.7104933333334,
+                "y": 418.59023333333334
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.3841133333333,
+                "y": 279.58198
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.0184266666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "133": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.7217716666667,
+                "y": 418.53384166666666
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.2666316666666,
+                "y": 279.486115
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.1077133333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "134": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.73305,
+                "y": 418.47745
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.14915,
+                "y": 279.39025000000004
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.197,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "135": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.7443283333333,
+                "y": 418.42105833333335
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 726.0316683333333,
+                "y": 279.29438500000003
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.2862866666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "136": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.7556066666666,
+                "y": 418.36466666666666
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.9141866666666,
+                "y": 279.19852000000003
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.3755733333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "137": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.766885,
+                "y": 418.308275
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.796705,
+                "y": 279.102655
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.46486,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "138": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.7781633333333,
+                "y": 418.25188333333335
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.6792233333333,
+                "y": 279.00679
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.5541466666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "139": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.7894416666667,
+                "y": 418.19549166666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.5617416666666,
+                "y": 278.910925
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.6434333333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "140": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.80072,
+                "y": 418.1391
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.44426,
+                "y": 278.81506
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.73272,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "141": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.8119983333333,
+                "y": 418.08270833333336
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.3267783333333,
+                "y": 278.719195
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.8220066666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "142": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.8232766666666,
+                "y": 418.0263166666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.2092966666667,
+                "y": 278.62333
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 669.9112933333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "143": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.834555,
+                "y": 417.969925
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 725.091815,
+                "y": 278.527465
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.00058,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "144": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.8458333333333,
+                "y": 417.91353333333336
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.9743333333333,
+                "y": 278.4316
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.0898666666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "145": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.8571116666667,
+                "y": 417.8571416666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.8568516666667,
+                "y": 278.335735
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.1791533333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "146": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.86839,
+                "y": 417.80075
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.73937,
+                "y": 278.23987
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.2684399999999,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "147": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.8796683333334,
+                "y": 417.74435833333337
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.6218883333333,
+                "y": 278.144005
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.3577266666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "148": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.8909466666667,
+                "y": 417.6879666666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.5044066666667,
+                "y": 278.04814
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.4470133333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "149": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.902225,
+                "y": 417.631575
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.386925,
+                "y": 277.952275
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.5363,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "150": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9135033333333,
+                "y": 417.57518333333337
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.2694433333332,
+                "y": 277.85641
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.6255866666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "151": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9247816666667,
+                "y": 417.5187916666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.1519616666666,
+                "y": 277.760545
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.7148733333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "152": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.93606,
+                "y": 417.4624
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 724.0344799999999,
+                "y": 277.66468
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.80416,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "153": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9473383333334,
+                "y": 417.4060083333334
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.9169983333333,
+                "y": 277.568815
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.8934466666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "154": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9586166666667,
+                "y": 417.3496166666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.7995166666666,
+                "y": 277.47294999999997
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 670.9827333333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "155": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9698950000001,
+                "y": 417.293225
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.6820349999999,
+                "y": 277.377085
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.07202,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "156": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9811733333333,
+                "y": 417.2368333333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.5645533333333,
+                "y": 277.28122
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.1613066666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "157": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 655.9924516666667,
+                "y": 417.1804416666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.4470716666666,
+                "y": 277.185355
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.2505933333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "158": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.00373,
+                "y": 417.12405
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.3295899999999,
+                "y": 277.08949
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.33988,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "159": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.0150083333334,
+                "y": 417.0676583333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.2121083333333,
+                "y": 276.993625
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.4291666666667,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "160": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.0262866666667,
+                "y": 417.0112666666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 723.0946266666666,
+                "y": 276.89776
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.5184533333334,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "161": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.0375650000001,
+                "y": 416.954875
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 722.977145,
+                "y": 276.801895
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.6077399999999,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "162": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.0488433333334,
+                "y": 416.89848333333333
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 722.8596633333333,
+                "y": 276.70603
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.6970266666666,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "163": {
+          "keyframe": false,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.0601216666668,
+                "y": 416.8420916666667
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 722.7421816666666,
+                "y": 276.610165
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.7863133333333,
+                "y": 498.6286
+              }
+            ]
+          }
+        },
+        "164": {
+          "keyframe": true,
+          "skeleton": {
+            "nodes": [
+              {
+                "name": "bacino",
+                "occluded": false,
+                "x": 656.0714,
+                "y": 416.7857
+              },
+              {
+                "name": "caviglia",
+                "occluded": false,
+                "x": 722.6247,
+                "y": 276.5143
+              },
+              {
+                "name": "spalla",
+                "occluded": false,
+                "x": 671.8756,
+                "y": 498.6286
+              }
+            ]
+          }
+        }
+      },
+      "id": "c28338ee-2afd-42f2-a1eb-fdbe7d41bb35",
+      "interpolate_algorithm": "linear-1.1",
+      "interpolated": true,
+      "name": "HS",
+      "properties": [],
+      "ranges": [
+        [
+          76,
+          165
+        ]
+      ],
+      "slot_names": [
+        "0"
+      ]
+    }
+  ]
+}
