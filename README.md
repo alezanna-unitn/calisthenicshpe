@@ -12,6 +12,7 @@ Verify that the algorithms are reliable for judging.
 Calculate the angles between the points.
 Measure the percentage of Malus that the athlete will receive in performing his skill:
 0%,15%,25%,50%,100%
+
 Output: 
 - Mean Squared Error and Mean Per Joint Position Error to verify reliability of the algorithms
 - Percentage of the malus according to the form of the pose
