@@ -1,5 +1,5 @@
 # calisthenicshpe
-Zed &amp; MediaPipe solutions for tracking Calisthenics static poses. Helpful to Judges during competitions.
+Zed &amp; MediaPipe python solutions for tracking Calisthenics static poses. Helpful to Judges during competitions.
 
 Idea: Track 3 points on the athlete's body: shoulder, hip and ankle, connect them with a line and see if this line breaks, rises or lowers compared to how it should be performed, following the guidelines of the competition regulations in question.
 
