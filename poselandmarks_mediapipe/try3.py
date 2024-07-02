@@ -10,7 +10,7 @@ import numpy as np
 import math
 
 model_path = r'C:\Users\aless\TestMediapipe\mediapipe\examples\pose_landmarker\python\pose_landmarker_lite.task'
-video_path = r'C:\Users\aless\TestMediapipe\mediapipe\examples\pose_landmarker\python\setconpersona.mp4'
+video_path = r'C:\Users\aless\TestMediapipe\mediapipe\examples\pose_landmarker\python\verticalecorto.mp4'
 
 # Define the tolerance for horizontal and vertical alignment
 horizontal_tolerance = 80
@@ -312,6 +312,55 @@ def calcola_angolo(vettore1, vettore2, vettore3):
     angolo_gradi = np.degrees(angolo_radianti)
 
     return angolo_gradi
+
+def calcolo_malus(angolo,posa,spalla,caviglia):
+    if posa == "ORIZZONTALE":
+        malus = 90-15-angolo
+    else:
+        malus=180-15-angolo 
+    if malus<0:
+        malus=0
+    if malus>100:
+        malus=100
+    threshold=15
+
+    if malus == 0 and posa == "VERTICALE" and (spalla[0] > caviglia[0]-threshold or spalla[0] < caviglia[0]+threshold):
+        euclidea = math.sqrt((caviglia[0]-spalla[0])**2 + (caviglia[1]-spalla[1])**2)
+        #stampa spalla
+        print(f"\nSpalla X : {spalla[0]}")
+        #stampa caviglia
+        print(f"\nCaviglia X: {caviglia[0]}")
+        print(f"\nEuclidea: {euclidea}")
+        distx = abs(caviglia[0]-spalla[0])
+        print(f"\nDistanza x: {distx}")
+        #teorema di pitagora conoscedo l'ipotenusa e un cateto
+        disty = math.sqrt(euclidea**2 - distx**2)
+        print(f"\nDistanza y: {disty}")
+        #angolo sotteso tra cateto maggiore e ipotenusa
+        angolo = 90-math.degrees(math.atan(disty/distx))
+        malus=angolo
+        print(f"\nAngolo bacino: {angolo}")
+    if malus == 0 and posa == "ORIZZONTALE" and (spalla[1] > caviglia[1]-threshold or spalla[1] < caviglia[1]+threshold):
+        euclidea = math.sqrt((caviglia[0]-spalla[0])**2 + (caviglia[1]-spalla[1])**2)
+        disty = abs(caviglia[1]-spalla[1])
+        #teorema di pitagora conoscedo l'ipotenusa e un cateto
+        distx = math.sqrt(euclidea**2 - disty**2)
+        #angolo sotteso tra cateto maggiore e ipotenusa
+        angolo = 90-math.degrees(math.atan(distx/disty))
+        malus=angolo
+    if malus <10:
+        malus=0
+    if malus >10 and malus <20:
+        malus=15
+    if malus >20 and malus <35:
+        malus=25
+    if malus >35 and malus <65:
+        malus=50
+    if malus >65:
+        malus=100
+
+    return malus
+
 # Create PoseLandmarkerOptions
 BaseOptions = mp.tasks.BaseOptions
 PoseLandmarker = mp.tasks.vision.PoseLandmarker
@@ -421,7 +470,7 @@ with PoseLandmarker.create_from_options(options) as landmarker:
 
 
     mp_coordinates = extract_coordinates_from_mp('mp.json')
-    annotated_coordinates = extract_coordinates_from_annotated('verticalecortochiuso.json')
+    annotated_coordinates = extract_coordinates_from_annotated('verticalecorto.json')
 
     #alignment_time = calculate_alignment_time(mp_coordinates)
     #print(f"\nAlignment time: {alignment_time}")
@@ -440,31 +489,44 @@ with PoseLandmarker.create_from_options(options) as landmarker:
 
     mean_errors = calculate_mean_errors_per_joint(result)
     print("\nMean Per Joint Position Error for MediaPipe:")
-    print(mean_errors)
+    nomi_riga = ['anca', 'spalla', 'caviglia']
+    mean_errors_con_nomi = np.column_stack((nomi_riga, mean_errors))
+    print(mean_errors_con_nomi)
  
-    #msquaree = mse(result2,n_com)
     msquaree = mse(result)
     print("\nMean squared errors for MediaPipe:")
-    print(msquaree)
+    nomi_riga = ['anca', 'spalla', 'caviglia']
+    mse_con_nomi = np.column_stack((nomi_riga, msquaree))
+    print(mse_con_nomi)
    
     media1,media2,media3,dist,bacino,spalla,caviglia = dist_euclidea(mp_coordinates,annotated_coordinates)
-    print(f"\nBacino: {bacino}")
-    print(f"\nSpalla: {spalla}")
-    print(f"\nCaviglia: {caviglia}")
-    print(f"\nDistanze euclidee: Spalla-Bacino: '{round(dist[0],2)}', Bacino-Caviglia: '{round(dist[1],2)}', Spalla-Caviglia: '{round(dist[2],2)}'")
+    print(f"\nMedia punto dell'anca: {bacino}")
+    print(f"Media punto della spalla: {spalla}")
+    print(f"Media punto della caviglia: {caviglia}")
+    print(f"\nDistanze euclidee: Spalla-Anca: '{round(dist[0],2)}', Anca-Caviglia: '{round(dist[1],2)}', Spalla-Caviglia: '{round(dist[2],2)}'")
     angolo_bacino = calcola_angolo(media1, media2, media3)
     angolo = round(angolo_bacino, 0)
-    print(f"\nAngolo bacino: {angolo}") #AGGIUNGERE CONDIZIONE: SE POSA = SQUADRA, L'ANGOLO GIUSTO DIVENTA 90
+    print(f"\nAngolo del corpo: {angolo}°") 
+    mal=180-15-angolo
+    print(f"\nCalcolo malus: 180° - 15° - {angolo}° = {180-15-angolo}° --> {180-15-angolo}% malus sul valore della skill")
+    inf=0
+    sup=0
+    if mal < 10:
+        inf=0
+        sup=10
+    if mal >= 10 and mal < 20:   
+        inf=10
+        sup=20
+    if mal >= 20 and mal < 35:
+        inf=20
+        sup=35
+    if mal >= 35 and mal < 65:
+        inf=35
+        sup=65
+
     posa = determine_pose(bacino, caviglia, spalla, horizontal_tolerance, vertical_tolerance, squad_x_tolerance, squad_y_tolerance)
-    if posa == "SQUADRA":
-        malus = 90-15-angolo
-    else:
-        malus=180-15-angolo 
-    if malus<0:
-        malus=0
-    if malus>100:
-        malus=100
-    print(f"\nIl MALUS che riceverà l'atleta per questa Skill {posa} sarà del {malus}% sul valore della Skill!\n")
+    malus=calcolo_malus(angolo,posa,spalla,caviglia)
+    print(f"\nDato che il MALUS è compreso tra {inf} e {sup}, l'atleta riceverà per questa Skill {posa} il/lo {malus}% di penalità sul valore della Skill!\n")
    
     # Rilascia le risorse
     cap.release()
