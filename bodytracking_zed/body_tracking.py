@@ -176,12 +176,14 @@ def calculate_differences(zed_coordinates, annotated_coordinates, joint_rows):#,
 
     zed_coordinates = np.array(zed_coordinates)
     annotated_coordinates = np.array(annotated_coordinates)
-    print(f"\nZED Coordinates: {zed_coordinates}")
-    print (f"\nAnnotated Coordinates: {annotated_coordinates}")
+    #print(f"\nZED Coordinates: {zed_coordinates}")
+    #print (f"\nAnnotated Coordinates: {annotated_coordinates}")
    # Trova i frame comuni tra i due video
     #common_frames = set(zed_coordinates[:, 0]).intersection(set(annotated_coordinates[:,0]))
     common_frames = set(zed_coordinates[:, 1]) & set(annotated_coordinates[:,1])
     common_frames = sorted(common_frames)
+    
+    
     print(f"\nCommon Frames: {common_frames}")
 
     # Inizializza array per le differenze
@@ -328,7 +330,7 @@ def dist_euclidea(zed_coordinates,annotated_coordinates):
         if dist_bacino_spalla < 250 and dist_bacino_caviglia < 250 and dist_spalla_caviglia < 500 and dist_bacino_spalla > 0 and dist_bacino_caviglia > 0 and dist_spalla_caviglia > 0:
             dist.append([dist_bacino_spalla, dist_bacino_caviglia, dist_spalla_caviglia])
     newdist = np.array(dist)
-    print(f"\nDistanze euclidee: {newdist}")
+    #print(f"\nDistanze euclidee: {newdist}")
     distbs=np.mean(newdist[:,0])
     distbc=np.mean(newdist[:,1])
     distsc=np.mean(newdist[:,2])
@@ -347,7 +349,7 @@ def calcola_angolo(vettore1, vettore2, vettore3):
 
     return angolo_gradi
 
-def calcolo_malus(angolo,posa,bacino,spalla,caviglia):
+def calcolo_malus(angolo,posa,spalla,caviglia):
     if posa == "ORIZZONTALE":
         malus = 90-15-angolo
     else:
@@ -357,8 +359,7 @@ def calcolo_malus(angolo,posa,bacino,spalla,caviglia):
     if malus>100:
         malus=100
     threshold=15
-    #print malus
-    print(f"\nIl MALUS {malus}% sul valore della Skill!")
+    
     if malus == 0 and posa == "VERTICALE" and (spalla[0] > caviglia[0]-threshold or spalla[0] < caviglia[0]+threshold):
         euclidea = math.sqrt((caviglia[0]-spalla[0])**2 + (caviglia[1]-spalla[1])**2)
         #stampa spalla
@@ -383,7 +384,7 @@ def calcolo_malus(angolo,posa,bacino,spalla,caviglia):
         #angolo sotteso tra cateto maggiore e ipotenusa
         angolo = 90-math.degrees(math.atan(distx/disty))
         malus=angolo
-    print(f"\nMalus: {malus}")
+    #print(f"\nMalus: {malus}")
     if malus <10:
         malus=0
     if malus >10 and malus <20:
@@ -447,7 +448,8 @@ def main():
 
     fps = zed.get_camera_information().camera_configuration.fps #time stamp temporale di acquisizione del frame
     #con il time stamp non mi interessa il frame rate del video, ma il time stamp temporale di acquisizione del frame
-    fourcc = cv2.VideoWriter_fourcc(*'H264')
+    #fourcc = cv2.VideoWriter_fourcc(*'H264')
+    fourcc = cv2.VideoWriter_fourcc(*'XVID')
     out = cv2.VideoWriter('output_video.mp4', fourcc, fps, (1280, 720))  # Adjust the resolution as needed
     
     # Get ZED camera information
@@ -524,30 +526,48 @@ def main():
             }
 
     result = calculate_differences(zed_coordinates, annotated_coordinates, joint_rows)
-    #print(result)
-    
-    #result = calculate_differences(zed_coordinates, annotated_coordinates, joint_rows) #non stampa perchè non ci sono frame comuni (non ho gli annotati)
-    #print("\nShape of differences:", result.shape)
 
     mean_errors = calculate_mean_errors_per_joint(result)
-    print("\nMean Per Joint Position Error for ZED:")
-    print(mean_errors)
+    print("\nMean Per Joint Position Error for MediaPipe:")
+    nomi_riga = ['anca', 'spalla', 'caviglia']
+    mean_errors_con_nomi = np.column_stack((nomi_riga, mean_errors))
+    print(mean_errors_con_nomi)
  
-    #msquaree = mse(result2,n_com)
     msquaree = mse(result)
-    print("\nMean squared errors for ZED:")
-    print(msquaree)
+    print("\nMean squared errors for MediaPipe:")
+    nomi_riga = ['anca', 'spalla', 'caviglia']
+    mse_con_nomi = np.column_stack((nomi_riga, msquaree))
+    print(mse_con_nomi)
    
     media1,media2,media3,dist,bacino,spalla,caviglia = dist_euclidea(zed_coordinates,annotated_coordinates)
-    print(f"\nBacino: {bacino}, Spalla: {spalla}, Caviglia: {caviglia}")
+    print(f"\nMedia punto dell'anca: {bacino}")
+    print(f"Media punto della spalla: {spalla}")
+    print(f"Media punto della caviglia: {caviglia}")
     print(f"\nDistanze euclidee: Spalla-Bacino: '{round(dist[0],2)}', Bacino-Caviglia: '{round(dist[1],2)}', Spalla-Caviglia: '{round(dist[2],2)}'")
     angolo_bacino = calcola_angolo(media1, media2, media3)
     angolo = round(angolo_bacino, 0)
-    print(f"\nAngolo bacino: {angolo}")
+    print(f"\nAngolo del corpo: {angolo}")
+
+    mal=180-15-angolo
+    print(f"\nCalcolo malus: 180° - 15° - {angolo}° = {180-15-angolo}° --> {180-15-angolo}% malus sul valore della skill")
+    inf=0
+    sup=0
+    if mal < 10:
+        inf=0
+        sup=10
+    if mal >= 10 and mal < 20:   
+        inf=10
+        sup=20
+    if mal >= 20 and mal < 35:
+        inf=20
+        sup=35
+    if mal >= 35 and mal < 65:
+        inf=35
+        sup=65
 
     posa = determine_pose(bacino, caviglia, spalla, horizontal_tolerance, vertical_tolerance, squad_x_tolerance, squad_y_tolerance)
-    malus=calcolo_malus(angolo,posa,bacino,spalla,caviglia)
-    print(f"\nIl MALUS che riceverà l'atleta per questa Skill {posa} sarà del {malus}% sul valore della Skill!\n")
+    malus=calcolo_malus(angolo,posa,spalla,caviglia)
+    print(f"\nDato che il MALUS è compreso tra {inf} e {sup}, l'atleta riceverà per questa Skill {posa} il {malus}% di penalità sul valore della Skill!\n")
     
     
     image.free(sl.MEM.CPU)
