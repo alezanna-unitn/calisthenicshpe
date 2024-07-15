@@ -275,7 +275,7 @@ def calculate_mean_errors_per_joint(errors_per_joint):
 
     return mpjpe
 
-def mse(errors_per_joint): ##PERCHè COSI ALTO L'MSE DI SPALLA???
+def mse(errors_per_joint): 
    
     # Calculate squared errors
     squared_errors = np.square(errors_per_joint)
@@ -306,11 +306,11 @@ def dist_euclidea(zed_coordinates,annotated_coordinates):
     for frame_number in common_frames:
         zed_frame = zed_coordinates[zed_coordinates[:,1] == frame_number]
         #annotated_frame = annotated_coordinates[annotated_coordinates[:,1] == frame_number]
-        #print(f"\nZED Frame: {zed_frame}")
+       
         bacino_x, bacino_y = zed_frame[0, 2:]
         spalla_x, spalla_y = zed_frame[1, 2:]
         caviglia_x, caviglia_y = zed_frame[2, 2:]
-        #print(f"\nBacino: {float(bacino_x), bacino_y}")
+        
         bacino=np.array([float(bacino_x),float(bacino_y)])
         spalla=np.array([float(spalla_x),float(spalla_y)])
         caviglia=np.array([float(caviglia_x),float(caviglia_y)])
@@ -320,7 +320,7 @@ def dist_euclidea(zed_coordinates,annotated_coordinates):
         bcy = float(bacino_y) - float(caviglia_y)
         scx = float(spalla_x) - float(caviglia_x)
         scy = float(spalla_y) - float(caviglia_y)
-
+        
         dist_bacino_spalla = math.sqrt(bsx**2 + bsy**2)
         dist_bacino_caviglia = math.sqrt(bcx**2 + bcy**2)
         dist_spalla_caviglia = math.sqrt(scx**2 + scy**2)
@@ -350,7 +350,7 @@ def calcola_angolo(vettore1, vettore2, vettore3):
     return angolo_gradi
 
 def calcolo_malus(angolo,posa,spalla,caviglia):
-    if posa == "ORIZZONTALE":
+    if posa == "SQUADRA":
         malus = 90-15-angolo
     else:
         malus=180-15-angolo 
@@ -384,7 +384,9 @@ def calcolo_malus(angolo,posa,spalla,caviglia):
         #angolo sotteso tra cateto maggiore e ipotenusa
         angolo = 90-math.degrees(math.atan(distx/disty))
         malus=angolo
-    #print(f"\nMalus: {malus}")
+    if posa == "SQUADRA":
+        malus=90-15-angolo
+
     if malus <10:
         malus=0
     if malus >10 and malus <20:
@@ -513,7 +515,7 @@ def main():
     with open("zed.json", "w") as json_file_all:
        json.dump(keypoints_data, json_file_all, indent=2)
 
-    annotated_coordinates = extract_coordinates_from_annotated('verticalecorto.json')
+    annotated_coordinates = extract_coordinates_from_annotated('planchevestitochiuso.json')
     zed_coordinates = extract_coordinates_from_zed('zed.json')
     
     #print("Annotated Coordinates:", annotated_coordinates)
@@ -528,13 +530,13 @@ def main():
     result = calculate_differences(zed_coordinates, annotated_coordinates, joint_rows)
 
     mean_errors = calculate_mean_errors_per_joint(result)
-    print("\nMean Per Joint Position Error for MediaPipe:")
+    print("\nMean Per Joint Position Error for ZED:")
     nomi_riga = ['anca', 'spalla', 'caviglia']
     mean_errors_con_nomi = np.column_stack((nomi_riga, mean_errors))
     print(mean_errors_con_nomi)
  
     msquaree = mse(result)
-    print("\nMean squared errors for MediaPipe:")
+    print("\nMean squared errors for ZED:")
     nomi_riga = ['anca', 'spalla', 'caviglia']
     mse_con_nomi = np.column_stack((nomi_riga, msquaree))
     print(mse_con_nomi)
@@ -547,9 +549,22 @@ def main():
     angolo_bacino = calcola_angolo(media1, media2, media3)
     angolo = round(angolo_bacino, 0)
     print(f"\nAngolo del corpo: {angolo}")
-
-    mal=180-15-angolo
-    print(f"\nCalcolo malus: 180° - 15° - {angolo}° = {180-15-angolo}° --> {180-15-angolo}% malus sul valore della skill")
+    posa = determine_pose(bacino, caviglia, spalla, horizontal_tolerance, vertical_tolerance, squad_x_tolerance, squad_y_tolerance)
+    malus=calcolo_malus(angolo,posa,spalla,caviglia)
+    mal=0
+    if posa == "ORIZZONTALE" or posa == "VERTICALE":
+        mal=180-15-angolo
+        if mal < 0:
+            mal=0
+        print(f"\nCalcolo malus: 180° - 15° - {angolo}° = {180-15-angolo}° --> {mal}% malus sul valore della skill")
+    if posa == "SQUADRA":
+        mal=90-15-angolo
+        if mal < 0:
+            mal=0
+        print(f"\nCalcolo malus: 90° - 15° - {angolo}° = {90-15-angolo}° --> {mal}% malus sul valore della skill")
+    if posa == "-Non sono riuscito ad elaborare la posizione-" :
+        print(f"\nNon sono riuscito ad elaborare la posizione, non posso dire quanto malus assegnare!!")
+        exit()
     inf=0
     sup=0
     if mal < 10:
@@ -565,9 +580,8 @@ def main():
         inf=35
         sup=65
 
-    posa = determine_pose(bacino, caviglia, spalla, horizontal_tolerance, vertical_tolerance, squad_x_tolerance, squad_y_tolerance)
-    malus=calcolo_malus(angolo,posa,spalla,caviglia)
-    print(f"\nDato che il MALUS è compreso tra {inf} e {sup}, l'atleta riceverà per questa Skill {posa} il {malus}% di penalità sul valore della Skill!\n")
+    
+    print(f"\nDato che il MALUS è compreso tra {inf} e {sup}, l'atleta riceverà per questa Skill {posa} il/lo {malus}% di penalità sul valore della Skill!\n")
     
     
     image.free(sl.MEM.CPU)
